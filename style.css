@@ -1,0 +1,72 @@
+/* Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.container {
+  width: 500px;
+  margin: 25px auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container */
+  background: #c7b891; /* Change the background color to white */
+  color: #000; /* Change text color to black */
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+form {
+  background: #907857;
+  color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+form label,
+form input,
+form button {
+  border: 0;
+  margin-bottom: 10px; /* Increase margin for better spacing */
+  display: block;
+  width: 100%;
+}
+
+form input {
+  height: 35px; /* Increase input height for better visibility */
+  line-height: 35px;
+  background: #fff; /* Change input background color to white */
+  color: #000; /* Change text color to black */
+  padding: 0 10px; /* Increase padding for better spacing */
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Add a border for input fields */
+  box-sizing: border-box;
+}
+
+form button {
+  height: 40px; /* Increase button height for better visibility */
+  line-height: 40px;
+  background: #605245;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem; /* Increase margin-top for better spacing */
+  cursor: pointer;
+  border: 0; /* Remove border from the button */
+  border-radius: 4px;
+}
+
+form .error {
+  color: #231414;
+}

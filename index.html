@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="form-validation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action=" " name="registration" id="registration-form">
+        <h2>Registration Information</h2>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="alessandra@vendicacion.com"/>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="**************"/>
+     
+    <h2>User Information</h2>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Alessandra"/>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Vendicacion"/>
+
+        <label for="zipcode">5-Digit Zip Code</label>
+        <input type="text" name="zipcode" id="zipcode" placeholder="12345"/>
+        
+        <label for="phonenumber">Phone Number</label>
+        <input type="tel" name="phonenumber" id="phonenumber" placeholder=" ###-###-####"/>
+    
+        <button type="submit">Submit</button>
+      </form>   
+    </div>
+</body>
+</html>
