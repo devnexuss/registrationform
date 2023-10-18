@@ -20,7 +20,8 @@ $(document).ready(function() {
               maxlength: 5
           },
           phonenumber: {
-              required: true
+              required: true,
+              digits: true
           }
       },
       // Specify validation error messages
@@ -38,7 +39,10 @@ $(document).ready(function() {
               minlength: "ZIP code must be 5 digits",
               maxlength: "ZIP code must be 5 digits"
           },
-          phonenumber: "Please enter a phone number"
+          phonenumber: {
+            required: "Please enter a phone number",
+            digits: "Phone number must contain only digits"
+          }
       },
       // Make sure the form is submitted to the destination defined
       // in the "action" attribute of the form when valid
